@@ -3,6 +3,7 @@
   - RSVP button colors
   - Missing background polaroid images
   - Apply missing fonts to #invitation area
+  - Use web font for handwritten text on polaroid image
 * Improve content
   - Add title content
   - Revise #invitation header tag copy

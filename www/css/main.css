@@ -191,6 +191,15 @@ textarea {
 }
 
 /* ==========================================================================
+   Hosted fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: CourtneyDorkling;
+  src: url(../fonts/courtneydorkling.ttf);
+}
+
+/* ==========================================================================
    Default Screen styles.
    ========================================================================== */
 
@@ -201,22 +210,63 @@ body {
     width: 888px; 
 }
 
-img { 
-    position: absolute; 
+/* Simulate polaroid snapshot */
+.polaroid {
+  position: absolute;
+  border: 17px solid #ECEAEB;
+  border-bottom: 60px solid #ECEAEB;
+  background-color: #ECEAEB;
+
+  -webkit-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.35);
+  -moz-box-shadow:    3px 3px 7px rgba(50, 50, 50, 0.35);
+  box-shadow:         3px 3px 7px rgba(50, 50, 50, 0.35);
 }
+
 #title {
-    left: 17px;
-    top: 25px;
-    z-index: 2;
+  left: 17px;
+  top: 25px;
+  z-index: 2;
+
+  -moz-transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
 }
+#title h1 {
+  margin: 0;
+}
+
 #description {
-    left: 259px;
-    top: 67px;
-    z-index: 1;
+  left: 259px;
+  top: 67px;
+  z-index: 1;
 }
-#date {
-    left: 525px;
-    top: 9px;
+#description h2 {
+  margin: 0;
+}
+
+#event-details {
+  left: 525px;
+  top: 9px;
+  text-align: right;
+  width: 224px;
+
+  /* override `.polaroid` border-bottom to accomodate "handwriting" */
+  border-bottom: 40px;
+
+  -moz-transform: rotate(1.8deg);
+  -webkit-transform: rotate(1.8deg);
+  -o-transform: rotate(1.8deg);
+  -ms-transform: rotate(1.8deg);
+  transform: rotate(1.8deg);
+}
+#event-details em {
+  font-family: 'CourtneyDorkling', sans-serif;
+  font-size: 12px;
+  color: #4b4b4b;
+  margin: 1em 0;
+  display: block;
 }
 
 #invitation {
@@ -233,6 +283,7 @@ img {
     -moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
     box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
 }
+
 #invitation h1 {
   font-family: 'PT Sans', 'Helvetica Neue', 'Arial', sans-serif;
   color: #3A3A3A;
@@ -271,12 +322,6 @@ img {
 #rsvp-no:hover,
 #rsvp-no:focus {
   background-color: #4b4b4b;
-}
-
-/* Simulate polaroid snapshot */
-.polaroid {
-  border: 17px solid #ECEAEB;
-  border-bottom: 60px solid #ECEAEB;
 }
 
 /* Position decorational polaroid background shots */

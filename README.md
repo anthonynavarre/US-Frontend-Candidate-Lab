@@ -43,4 +43,10 @@ Use this area to communicate any thought processes, ideas, or challenges you enc
   would want to vet this decision with designer or, preferably, go with
   Helvetica Neue from Fonts.com and make this font styling consistent
   throughout campaign.
+* Considered font stack incl. Lucida Handwriting & Brush Script MT for
+  handwritten font, but those don't scale well at 12px - favored
+  legibility over style and went with a sans-serif fallback.
+  CourtneyDorkling font only available (easily) as a .ttf - might need
+  to track down .woff, .eot & .svg file types or go with an image
+  fallback.
 
