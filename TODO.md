@@ -43,4 +43,8 @@
 * Handle smaller screen sizes with responsive breakpoints
 * Do something fancy with background image to make it repeatable without
   bloating file sizes - CSS "Cicada" technique applicable?
+* Deliver X-UA-Compatible header server-side instead of within `head`
+  tag to satisfy HTML validator
+  - see: http://www.validatethis.co.uk/news/fix-bad-value-x-ua-compatible-once-and-for-all/
+* Print-specific CSS
 
