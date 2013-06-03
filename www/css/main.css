@@ -234,8 +234,18 @@ img {
     box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
 }
 #invitation h1 {
-    font-size: 30px;
-    margin-bottom: 15px;
+  font-family: 'PT Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #3A3A3A;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+#invitation p {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  line-height: 1.8em;
+  color: #4b4b4b;
 }
 #invitation a {
     color: #fff;
@@ -246,15 +256,21 @@ img {
     text-align: center;
     text-decoration: none;
 }
-#invitation a:hover {
-    background-color: #f78b36;
-}
 
+#rsvp-yes,
+#rsvp-no {
+  font-family: 'PT Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  text-transform: uppercase;
+}
 #rsvp-yes {
-  background: #F9934B;
+  background-color: #f78b36;
 }
 #rsvp-no {
-  background: #3A3A3A;
+  background-color: #3A3A3A;
+}
+#rsvp-no:hover,
+#rsvp-no:focus {
+  background-color: #4b4b4b;
 }
 
 /* Simulate polaroid snapshot */

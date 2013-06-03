@@ -39,4 +39,8 @@ Use this area to communicate any thought processes, ideas, or challenges you enc
 * #invitation background texture PSD shows gradients. Opting for
   repeating background image for now instead in favor of scaling size of
   content area.
+* Chose to use PT Sans instead of pricy Helvetica Neue for web fonts -
+  would want to vet this decision with designer or, preferably, go with
+  Helvetica Neue from Fonts.com and make this font styling consistent
+  throughout campaign.
 

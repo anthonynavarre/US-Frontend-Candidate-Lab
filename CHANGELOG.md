@@ -2,6 +2,7 @@
   - Invitation content background treatment
   - RSVP button colors
   - Missing background polaroid images
+  - Apply missing fonts to #invitation area
 * Improve content
   - Add title content
   - Revise #invitation header tag copy
