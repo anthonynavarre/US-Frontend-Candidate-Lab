@@ -1,12 +1,10 @@
 # Asks
-* Improve semantic structure
 * Improve content
 * Incorporate missing design elements ([per psd](psd/Desktop-Site.psd))
 * Handle RSVP interactions message onClick of 'Yes' or 'No':
 
 # MVP
 
-* Use more semantic tags, eg: section, figure
 * Have anchor href attrs point to semantic locations within the DOM
   for accessibility
 * Use web font + CSS to make event details selectable in-browser, more
