@@ -221,13 +221,17 @@ img {
 
 #invitation {
     background: #fff url(../img/bkg-invitation-texture.png) repeat;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     bottom: 0;
     left: 0;
     padding: 27px 129px 29px 29px;
     position: absolute;
     width: 579px;
     z-index: 3;
+
+    -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
 }
 #invitation h1 {
     font-size: 30px;
@@ -253,6 +257,40 @@ img {
   background: #3A3A3A;
 }
 
+/* Simulate polaroid snapshot */
+.polaroid {
+  border: 17px solid #ECEAEB;
+  border-bottom: 60px solid #ECEAEB;
+}
+
+/* Position decorational polaroid background shots */
+#boot,
+#abstract {
+  position: absolute;
+  z-index: 1;
+}
+
+#boot {
+  bottom: -140px;
+  left: 629px;
+
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+#abstract {
+  bottom: 0px;
+  right: -220px;
+
+  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
