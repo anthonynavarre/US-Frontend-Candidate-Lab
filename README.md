@@ -36,6 +36,7 @@ Submit a pull request when you are finished and satisfied with your work.
 
 Use this area to communicate any thought processes, ideas, or challenges you encountered.
 
-*
-*
-*
+* #invitation background texture PSD shows gradients. Opting for
+  repeating background image for now instead in favor of scaling size of
+  content area.
+

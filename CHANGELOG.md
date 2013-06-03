@@ -1,3 +1,5 @@
+* Incorporate missing design elements ([per psd](psd/Desktop-Site.psd))
+  - Invitation content background treatment
 * Improve content
   - Add title content
   - Revise #invitation header tag copy

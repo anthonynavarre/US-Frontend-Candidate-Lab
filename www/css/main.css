@@ -220,7 +220,8 @@ img {
 }
 
 #invitation {
-    background-color: #fff;
+    background: #fff url(../img/bkg-invitation-texture.png) repeat;
+    border: 1px solid #fff;
     bottom: 0;
     left: 0;
     padding: 27px 129px 29px 29px;

@@ -1,6 +1,4 @@
 # Asks
-* Improve content
-* Incorporate missing design elements ([per psd](psd/Desktop-Site.psd))
 * Handle RSVP interactions message onClick of 'Yes' or 'No':
 
 # MVP
@@ -9,12 +7,6 @@
   for accessibility
 * Use web font + CSS to make event details selectable in-browser, more
   accessible, and search-engine friendly
-* Add title content
-* Revise header tag copy - needs ideation
-* Invitation content background treatment
-* Apply missing Fonts
-* Button treatments
-* Missing background polaroid images
 * Draft "Yes" and "No" confirmation messaging
 * Introduce modal with confirmation dialog + matching imagery
 * Browser testing
@@ -47,4 +39,7 @@
   tag to satisfy HTML validator
   - see: http://www.validatethis.co.uk/news/fix-bad-value-x-ua-compatible-once-and-for-all/
 * Print-specific CSS
+* Use CSS gradients to enhance #invitation background texture - need to
+  determine whether this is worth the tradeoff of extra markup and
+  investment of extra effort
 
