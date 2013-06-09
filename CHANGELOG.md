@@ -11,4 +11,6 @@
   - Use more semantic tags, eg: section
   - Expose better content to screenreaders in a way that also preps for
     more advanced font replacements
+* Handle RSVP interactions message onClick of 'Yes' or 'No':
+  - Draft "Yes" and "No" confirmation messaging
 

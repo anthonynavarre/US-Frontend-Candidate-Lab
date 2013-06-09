@@ -7,7 +7,6 @@
   for accessibility
 * Use web font + CSS to make event details selectable in-browser, more
   accessible, and search-engine friendly
-* Draft "Yes" and "No" confirmation messaging
 * Introduce modal with confirmation dialog + matching imagery
 * Browser testing
 
