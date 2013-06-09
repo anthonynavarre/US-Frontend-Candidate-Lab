@@ -16,4 +16,6 @@
   - Have anchor href attrs point to semantic locations within the DOM
     for accessibility
   - Introduce confirmation dialog window for RSVP actions
+  - Add Google maps link
+  - Provide next step call-to-action to buy the book
 

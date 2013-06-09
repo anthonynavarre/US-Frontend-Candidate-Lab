@@ -10,9 +10,6 @@
 
 # Nice-to-Haves
 
-* Add Google maps link
-* Provide next step call-to-action from within modal window (eg: Buy
-  the book w/ Amazon link - http://www.amazon.com/books/dp/1616890851)
 * Capture invitee's response
   - Introduce Google Analytics
   - Log RSVP event with GAnalytics on invitee interaction
