@@ -20,4 +20,7 @@
   - Provide next step call-to-action to buy the book
   - Supply context-appropriate imagery for confirmation dialog windows
 * Add favicon
+* Introduce Require.js
+  - Load all scripts via require.js async
+* Provide abstraction layer for dialog implementation
 

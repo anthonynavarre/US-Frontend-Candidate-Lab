@@ -18,7 +18,6 @@
   - Slow fade-in on image, quick fade-in on message
   - Explore using CSS3 filter on image for browsers that support it
   - Use audio tag for camera sound-effect
-* Introduce Require.js for performance & namespacing
 * Use font-based icons for buying the book & getting directions
 * Handle smaller screen sizes with responsive breakpoints
 * Do something fancy with background image to make it repeatable without
