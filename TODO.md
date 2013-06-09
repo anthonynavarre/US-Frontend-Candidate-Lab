@@ -3,8 +3,6 @@
 
 # MVP
 
-* Have anchor href attrs point to semantic locations within the DOM
-  for accessibility
 * Use web font + CSS to make event details selectable in-browser, more
   accessible, and search-engine friendly
 * Introduce modal with confirmation dialog + matching imagery

@@ -13,4 +13,6 @@
     more advanced font replacements
 * Handle RSVP interactions message onClick of 'Yes' or 'No':
   - Draft "Yes" and "No" confirmation messaging
+  - Have anchor href attrs point to semantic locations within the DOM
+    for accessibility
 
