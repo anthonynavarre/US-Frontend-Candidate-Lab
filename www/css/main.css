@@ -250,11 +250,7 @@ body {
 #event-details {
   left: 525px;
   top: 9px;
-  text-align: right;
   width: 224px;
-
-  /* override `.polaroid` border-bottom to accomodate "handwriting" */
-  border-bottom: 40px;
 
   -moz-transform: rotate(1.8deg);
   -webkit-transform: rotate(1.8deg);
@@ -262,20 +258,24 @@ body {
   -ms-transform: rotate(1.8deg);
   transform: rotate(1.8deg);
 }
-#event-details em {
+
+/* Override `.polaroid` border-bottom to accomodate "handwriting" */
+.polaroid.with-writing {
+  border-bottom: 40px;
+}
+.polaroid em {
   font-family: 'CourtneyDorkling', sans-serif;
   font-size: 12px;
   color: #4b4b4b;
   margin: 1em 0;
   display: block;
+  text-align: right;
 }
 
 #invitation,
 .response {
   background: #fff url(../img/bkg-invitation-texture.png) repeat;
   border: 2px solid #fff;
-  padding: 27px 129px 29px 29px;
-  width: 579px;
 
   -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
@@ -287,6 +287,13 @@ body {
   bottom: 0;
   left: 0;
   z-index: 3;
+  width: 579px;
+  padding: 27px 129px 29px 29px;
+}
+.response {
+  width: 679px;
+  padding: 29px;
+  min-height: 300px;
 }
 
 /* Headers (<h1> .. <h6>) */
@@ -334,6 +341,22 @@ h2 {
 .call-to-action:hover,
 .call-to-action:focus {
   background-color: #4b4b4b;
+}
+
+/* Polaroid images that appear within a dialog window are floated
+ * instead of positioned absolutely - ensure content flows around the
+ * image and that dialog window sizes appropriately.
+ */
+.response .polaroid {
+  position: relative;
+  float: right;
+  margin-left: 1em;
+
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
 }
 
 /* Position decorational polaroid background shots */

@@ -1,11 +1,7 @@
-# Asks
-* Handle RSVP interactions message onClick of 'Yes' or 'No':
-
 # MVP
 
 * Use web font + CSS to make event details selectable in-browser, more
   accessible, and search-engine friendly
-* Introduce modal with confirmation dialog + matching imagery
 * Browser testing
 
 # Nice-to-Haves
@@ -26,6 +22,7 @@
 * Add favicon
   - Polaroid image
   - Super-fancy nice-to-have: Polaroid image fades in over time
+* Use font-based icons for buying the book & getting directions
 * Handle smaller screen sizes with responsive breakpoints
 * Do something fancy with background image to make it repeatable without
   bloating file sizes - CSS "Cicada" technique applicable?

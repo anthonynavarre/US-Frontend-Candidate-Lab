@@ -18,4 +18,5 @@
   - Introduce confirmation dialog window for RSVP actions
   - Add Google maps link
   - Provide next step call-to-action to buy the book
+  - Supply context-appropriate imagery for confirmation dialog windows
 
