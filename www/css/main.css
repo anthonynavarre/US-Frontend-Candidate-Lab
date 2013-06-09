@@ -203,11 +203,12 @@ textarea {
    Default Screen styles.
    ========================================================================== */
 
-body { 
-    background: url(../img/woodgrain.jpg) repeat; 
-    font-family: "Helvetica", "Arial", sans-serif;
-    height: 600px; 
-    width: 888px; 
+body {
+  background: url(../img/woodgrain.jpg) repeat; 
+  font-family: "Helvetica", "Arial", sans-serif;
+  height: 600px; 
+  width: 888px; 
+  overflow: hidden;
 }
 
 /* Simulate polaroid snapshot */
