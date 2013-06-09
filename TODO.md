@@ -19,9 +19,6 @@
   - Explore using CSS3 filter on image for browsers that support it
   - Use audio tag for camera sound-effect
 * Introduce Require.js for performance & namespacing
-* Add favicon
-  - Polaroid image
-  - Super-fancy nice-to-have: Polaroid image fades in over time
 * Use font-based icons for buying the book & getting directions
 * Handle smaller screen sizes with responsive breakpoints
 * Do something fancy with background image to make it repeatable without
@@ -30,6 +27,7 @@
   tag to satisfy HTML validator
   - see: http://www.validatethis.co.uk/news/fix-bad-value-x-ua-compatible-once-and-for-all/
 * Print-specific CSS
+* Add apple-touch-icon
 * Use CSS gradients to enhance #invitation background texture - need to
   determine whether this is worth the tradeoff of extra markup and
   investment of extra effort
