@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vendor/colorbox.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 </head>
@@ -53,11 +54,11 @@
       Instagram &#38; expose yourself to instant gratification by
       snapping a few candid shots of your own.
     </p>
-    <a id="rsvp-yes" href="#affirmative">Yes, I'm coming</a>
-    <a id="rsvp-no" href="#negative">No, not this time</a>
+    <a id="rsvp-yes" class="dialog call-to-action primary" href="#affirmative">Yes, I'm coming</a>
+    <a id="rsvp-no" class="dialog call-to-action" href="#negative">No, not this time</a>
   </section>
 
-  <div class="removed" id="affirmative">
+  <div class="removed response" id="affirmative">
     <h2>This is going to turn out great!</h2>
     <p>
       We&#8217;re thrilled that you can make it to the celebration. Be
@@ -69,7 +70,7 @@
     <p>See you there!</p>
   </div>
 
-  <div class="removed" id="negative">
+  <div class="removed response" id="negative">
     <h2>Aww, bummer.</h2>
     <p>
       It won&#8217;t be the same without you. Don&#8217;t worry &#8211;
@@ -84,4 +85,5 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
   </body>
+  <script src="js/vendor/jquery.colorbox-min.js"></script>
 </html>

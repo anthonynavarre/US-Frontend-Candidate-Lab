@@ -15,4 +15,5 @@
   - Draft "Yes" and "No" confirmation messaging
   - Have anchor href attrs point to semantic locations within the DOM
     for accessibility
+  - Introduce confirmation dialog window for RSVP actions
 

@@ -1,0 +1,209 @@
+/*
+  Colorbox jQuery Styling
+  Borrowed heavily from Colorbox example core styling.
+*/
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:9999;
+  overflow:hidden;
+}
+#cboxOverlay {
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear:left;
+}
+#cboxContent {
+  position:relative;
+}
+#cboxLoadedContent {
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
+}
+#cboxTitle {
+  margin:0;
+}
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow {
+  cursor:pointer;
+}
+.cboxPhoto{float:left;
+  margin:auto;
+  border:0;
+  display:block;
+  max-width:none;
+  -ms-interpolation-mode:bicubic;
+}
+
+/* Content loaded within an iframe */
+.cboxIframe{
+  width:100%;
+  height:100%;
+  display:block;
+  border:0;
+  background:#fff;
+}
+
+#colorbox,
+#cboxContent,
+#cboxLoadedContent {
+  box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+}
+
+/* Background overlay - Colobox applies opacity effects via JS */
+#cboxOverlay {
+  background: #000;
+}
+#colorbox {
+  outline:0;
+}
+
+/* Spacer-divs that Colorbox adds for border treatment */
+#cboxTopLeft {
+  width:14px;
+  height:14px;
+}
+#cboxTopCenter {
+  height:14px;
+}
+#cboxTopRight {
+  width:14px;
+  height:14px;
+}
+#cboxBottomLeft {
+  width:14px;
+  height:43px;
+}
+#cboxBottomCenter {
+  height:43px;
+}
+#cboxBottomRight {
+  width:14px;
+  height:43px;
+}
+#cboxMiddleLeft {
+  width:14px;
+}
+#cboxMiddleRight {
+  width:14px;
+}
+#cboxContent {
+  background:#fff;
+  overflow:visible;
+}
+
+/* Error treatment */
+#cboxError {
+  padding:50px;
+  border:1px solid #ccc;
+}
+
+/* Container for content */
+#cboxLoadedContent {
+  margin-bottom:5px;
+}
+
+/* Loading state overlay */
+#cboxLoadingOverlay {
+  background:url(../../img/vendor/colorbox/loading_background.png) no-repeat center center;
+}
+#cboxLoadingGraphic {
+  background:url(../../img/vendor/colorbox/loading.gif) no-repeat center center;
+}
+#cboxTitle {
+  position:absolute;
+  bottom:-25px;
+  left:0;
+  text-align:center;
+  width:100%;
+  font-weight:bold;
+  color:#7C7C7C;
+}
+#cboxCurrent {
+  position:absolute;
+  bottom:-25px;
+  left:58px;
+  font-weight:bold;
+  color:#7C7C7C;
+}
+
+/* UI Elements */
+#cboxPrevious,
+#cboxNext,
+#cboxSlideshow,
+#cboxClose {
+  border: 0;
+  padding: 0;
+  margin: 3px;
+  overflow:visible;
+  position:absolute;
+  top: 0px;
+  background:url(../../img/vendor/colorbox/controls.png) no-repeat 0px 0px;
+  width: 23px;
+  height: 23px;
+  text-indent:-9999px;
+}
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active,
+#cboxNext:active,
+#cboxSlideshow:active,
+#cboxClose:active {
+  outline:0;
+}
+
+#cboxPrevious {
+  left:0px;
+  background-position: -51px -25px;
+}
+#cboxPrevious:hover {
+  background-position:-51px 0px;
+}
+#cboxNext {
+  left:27px;
+  background-position:-95px -25px;
+}
+#cboxNext:hover {
+  background-position:-95px 0px;
+}
+#cboxClose {
+  right:0;
+  background-position:-120px -25px;
+}
+#cboxClose:hover {
+  background-position:-120px 0px;
+}
+
+/* Slideshow-specific styling */
+.cboxSlideshow_on #cboxSlideshow {
+  background-position:-145px 0px;
+  right:27px;
+}
+.cboxSlideshow_on #cboxSlideshow:hover {
+  background-position:-170px 0px;
+}
+.cboxSlideshow_off #cboxSlideshow {
+  background-position:-170px -25px;
+  right:27px;
+}
+.cboxSlideshow_off #cboxSlideshow:hover {
+  background-position:-145px 0px;
+}
