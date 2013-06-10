@@ -36,6 +36,18 @@ Submit a pull request when you are finished and satisfied with your work.
 
 Use this area to communicate any thought processes, ideas, or challenges you encountered.
 
+* Responsive layout would be great - chose to focus on JS refactors
+  instead to highlight OOP. In general, I'm not as practiced at
+  responsive CSS, but on a real project I would have spent the time to
+  get that right especially since it's likely that a communication like
+  this one would likely have a high interaction rate on mobile devices.
+* Would be nice to alter the provided wood grain background image to
+  allow for a repeating background - especially if somehow able to apply
+  the "Cicada" technique described here:
+  http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/
+  Alas, Photoshop is not my strong suit - I would opt to leave the image
+  prep in more capable hands and possibly experiment with a few prime
+  number mixes to see which looked most natural / organic.
 * #invitation background texture PSD shows gradients. Opting for
   repeating background image for now instead in favor of scaling size of
   content area.

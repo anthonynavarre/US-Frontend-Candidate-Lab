@@ -1,11 +1,10 @@
-# MVP
-
-* Use web font + CSS to make event details selectable in-browser, more
-  accessible, and search-engine friendly
-* Browser testing
-
 # Nice-to-Haves
 
+* Responsive layout
+* Use font-based icons for buying the book & getting directions
+* Use web font + CSS to make event details selectable in-browser, more
+  accessible, and search-engine friendly
+* Add support for retina displays
 * Capture invitee's response
   - Introduce Google Analytics
   - Log RSVP event with GAnalytics on invitee interaction
@@ -18,8 +17,6 @@
   - Slow fade-in on image, quick fade-in on message
   - Explore using CSS3 filter on image for browsers that support it
   - Use audio tag for camera sound-effect
-* Use font-based icons for buying the book & getting directions
-* Handle smaller screen sizes with responsive breakpoints
 * Do something fancy with background image to make it repeatable without
   bloating file sizes - CSS "Cicada" technique applicable?
 * Deliver X-UA-Compatible header server-side instead of within `head`
